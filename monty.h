@@ -37,9 +37,9 @@ typedef struct instruction_s
 
 
 /**** OPCODE ****/
-void stack_push(stack_t **stack, unsigned int line_number);
-void stack_pall(stack_t **stack, unsigned int line_number);
-void stack_pint(stack_t **stack, unsigned int line_number);
-void stack_pop(stack_t **stack, unsigned int line_number);
-void stack_swap(stack_t **stack, unsigned int line_number);
+void stash_push(stack_t **stack, unsigned int line_number);
+void stash_pall(stack_t **stack, unsigned int line_number);
+void stash_pint(stack_t **stack, unsigned int line_number);
+void stash_pop(stack_t **stack, unsigned int line_number);
+void stash_swap(stack_t **stack, unsigned int line_number);
 

@@ -1,8 +1,8 @@
 0x19. C - Stacks, Queues - LIFO, FIFO
 
-The project involves building an interpreter for monty byte code python 
+The project involves building an interpreter for monty byte code 
 
-~Objectives~
+Objectives
 1. Use of LIFO and FIFO and what they mean
 2. Demonstrate a stack, and when to use it
 3. Demonstrate what is a queue, and when to use it

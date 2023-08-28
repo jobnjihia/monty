@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
-  *f_rot - inverse stack to the top
-  *@head: stack head
-  *@counter: executing line
+ * stash_rot - inverse stack to the top
+ * @head: stack head
+ * @counter: executing line
  */
-void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int counter)
+void stash_rotl(stack_t **head,  __attribute__((unused)) unsigned int counter)
 {
 	stack_t *tmp = *head, *aux;
 
